@@ -52,6 +52,10 @@ class ErplyWebshop {
 	public function view_index()
 	{
 		echo 'index';
+		?>
+
+		<button>Sync products</button>
+		<?php
 	}
 
 	public function view_settings()
